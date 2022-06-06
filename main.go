@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Print("Hello Git \n")
-	a, b := 6, 8
-	fmt.Printf("6 + 8 = %v", a+b) //comment
+	a, b, c, d := 6, 8, 3, 1
+	fmt.Printf("6 + 8 + 3 + 1 = %v", a+b+c+d) //comment
 }
